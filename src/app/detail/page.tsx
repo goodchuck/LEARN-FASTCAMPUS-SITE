@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Detail() {
   return (
     <div>
-      <h1>Welcome to Next.js!</h1>
+      <h1>Detail 페이지</h1>
       <nav aria-label='fastcampus'>
         <h1>fastcampus</h1>
       </nav>
