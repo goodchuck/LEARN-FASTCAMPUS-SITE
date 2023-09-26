@@ -1,16 +1,16 @@
+import Banner from '@/components/Banner'
+import Menu from '@/components/Menu'
+import LectureGroup from '@/components/lecture/LectureGroup'
 import Image from 'next/image'
 
 export default function Detail() {
   return (
     <div>
       <h1>Detail 페이지</h1>
-      <nav aria-label='fastcampus'>
-        <h1>fastcampus</h1>
-      </nav>
-      <div role='banner'>
-        <h1>배너</h1>
-      </div>
 
+      <Menu />
+      <Banner />
+      <LectureGroup></LectureGroup>
       <div title='lectureList'>
         <h1>강의 목록</h1>
       </div>

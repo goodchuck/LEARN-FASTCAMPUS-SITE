@@ -1,16 +1,15 @@
+import Banner from '@/components/Banner'
+import Menu from '@/components/Menu'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <div>
       <h1>Welcome to Next.js!</h1>
-      <nav aria-label='fastcampus'>
-        <h1>fastcampus</h1>
-      </nav>
-      <div role='banner'>
-        <h1>배너</h1>
-      </div>
-
+      
+      <Menu />
+      
+      <Banner />
       <div title='lectureList'>
         <h1>강의 목록</h1>
       </div>
